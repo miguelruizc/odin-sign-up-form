@@ -53,6 +53,8 @@ body {
     align-items: center;
     padding-left: 2rem;
     padding-right: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
 
 .logo img {
@@ -81,7 +83,8 @@ a:hover
 
 .left-part-footer p {
     color: white;
-    font-size: 10px;   
+    font-size: 10px;  
+    margin-bottom: 10px; 
 }
 
 .right-part {
@@ -108,27 +111,42 @@ a:hover
     background-color: #f6f6f6;
     flex-grow: 1;
     justify-content: flex-end;
+    padding: 2rem;
 }
 
 .form-body {
     background-color: #ffffff;
     display: flex;
     flex-direction: column;
+    padding: 2rem;
+}
+
+.form-body p {
+    margin-bottom: 1.5rem;
 }
 
 .form-footer {
     background-color: #f6f6f6;
     flex-grow: 1;
+    padding: 2rem;
+}
+
+.form-footer button {
+    margin-bottom: 1.5rem;
 }
 
 form > div {
     display: flex;
     flex-direction: row;
+    margin-bottom: 20px;
 }
 
+form > div > div {
+    margin-right: 20px;
+}
 
 .form-body form input {
-    max-width: 150px;
+    /* max-width: 150px; */
 }
 
 label {
