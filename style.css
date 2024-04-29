@@ -33,7 +33,7 @@ body {
     background-image: url("image.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    flex-basis: 25%;
+    flex-basis: 40%;
     justify-content: flex-end;
 }
 
@@ -85,7 +85,7 @@ a:hover
 }
 
 .right-part {
-    flex-basis: 75%;
+    flex-basis: 60%;
     display: flex;
     flex-direction: column;
 }
