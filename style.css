@@ -49,7 +49,7 @@ body {
 
 .logo {
     width: 100%;
-    background-color: #000000bc;
+    background-color: #00000075;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -136,12 +136,20 @@ a:hover
     background-color: #f6f6f6;
     flex-grow: 1;
     padding: 2rem;
+    box-shadow: inset 0px 0px 16px 0px rgba(0,0,0,0.2);
 }
 
 .form-footer button {
     margin-bottom: 1.5rem;
     color: white;
     background-color: #596d48;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius:10px;
+    border: none;
+    box-shadow:2px 2px 5px -3px rgba(0, 0, 0, 0.5);;
 }
 
 .form-footer a {
@@ -159,12 +167,17 @@ form > div > div {
     margin-right: 20px;
 }
 
-.form-body form input {
-    /* max-width: 150px; */
-}
-
 label {
     display: block;
     font-size: 0.6em;
     text-transform: uppercase;
+    margin-bottom: 2px;
+}
+
+input {
+    border-radius: 5px;
+    border-style: solid;
+    border-color:#E5E7EB;
+    border-width: 1px;
+    height: 23px;
 }
