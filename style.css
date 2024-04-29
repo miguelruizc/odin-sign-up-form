@@ -8,6 +8,8 @@
     padding: 0;
     box-sizing: border-box;
     /* outline: 1px solid red; */
+    font-family:Seravek, 'Gill Sans Nova', Ubuntu, Calibri, 'DejaVu Sans', source-sans-pro, sans-serif;
+    font-weight: normal;
 }
 
 body {
@@ -99,6 +101,11 @@ a:hover
     flex-direction: column;
 }
 
+.form-top p {
+    margin-bottom: 15px;
+    max-width: 450px;
+}
+
 .form-bottom {
     flex-basis: 66%;
     display: flex;
@@ -133,6 +140,13 @@ a:hover
 
 .form-footer button {
     margin-bottom: 1.5rem;
+    color: white;
+    background-color: #596d48;
+}
+
+.form-footer a {
+    color: #596d48;
+    text-decoration-line: none;
 }
 
 form > div {
@@ -151,4 +165,6 @@ form > div > div {
 
 label {
     display: block;
+    font-size: 0.6em;
+    text-transform: uppercase;
 }
