@@ -13,6 +13,7 @@
 body {
     display: flex;
     flex-direction: column;
+    height: 100vh;
 }
 
 .header,
@@ -22,7 +23,7 @@ body {
 }
 
 .content {
-    min-height: 600px;
+    height: 100%;
     display: flex;
 }
 
@@ -65,13 +66,22 @@ body {
     text-wrap: nowrap;
 }
 
+a:link, 
+a:visited, 
+a:hover 
+{color: #ffffff;}
+
 .left-part-footer {
-    font-size: 5px;
     flex-basis: 66%;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
     align-items: center;
+}
+
+.left-part-footer p {
+    color: white;
+    font-size: 10px;   
 }
 
 .right-part {
