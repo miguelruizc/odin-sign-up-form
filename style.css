@@ -1,9 +1,15 @@
+@font-face {
+    font-family: "Norse";
+    src: url(Norse-Bold.otf);
+}
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     outline: 1px solid red;
 }
+
 body {
     display: flex;
     flex-direction: column;
@@ -40,10 +46,23 @@ body {
 
 .logo {
     width: 100%;
-    background-color: #23232378;
+    background-color: #000000bc;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.logo img {
+    height: 5rem;
+}
+
+.logo p {
+    font-family: Norse;
+    color: white;
+    font-size: 5rem;
+    text-wrap: nowrap;
 }
 
 .left-part-footer {
