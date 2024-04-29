@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+}
+
+.left-part {
+    flex-basis: 25%;
+}
+.right-part {
+    flex-basis: 75%;
+}
+
+.form-body {
+    display: flex;
+}
+
+.form-body>div {
+    display: flex;
+    flex-direction: row;
+}
+
+.form-body form input {
+    max-width: 100px;
+}
