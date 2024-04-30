@@ -203,3 +203,9 @@ input:invalid {
 input:placeholder-shown {
     border-color: #E5E7EB;
 }
+
+#password-error {
+    display: block;
+    color:  #b91c1c;
+    font-size: 0.8em;
+}

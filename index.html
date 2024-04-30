@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script> 
     <title>Document</title>
 </head>
 <body>
@@ -35,7 +36,7 @@
                     <div>
                         <p>Let's do this!</p>
                     </div>
-                    <form action="#" method="get" id="form">
+                    <form action="/" method="GET" id="form">
                         <div>
                             <div>
                                 <label for="first-name">First name</label>
@@ -60,6 +61,7 @@
                             <div>
                                 <label for="user-password">Password</label>
                                 <input type="password" id="user-password" name="user-password" placeholder="" required/>
+                                <span id="password-error"></span>
                             </div>
                             <div>
                                 <label for="confirm-password">Confirm Password</label>
