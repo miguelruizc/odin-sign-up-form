@@ -135,6 +135,10 @@ a:hover
     margin-bottom: 1.5rem;
 }
 
+p.submitted {
+    margin-top: 1rem;
+}
+
 .form-footer {
     background-color: #f6f6f6;
     flex-grow: 1;
