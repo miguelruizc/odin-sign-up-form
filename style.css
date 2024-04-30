@@ -178,9 +178,24 @@ label {
 }
 
 input {
+    all:unset;
+}
+
+input {
     border-radius: 5px;
     border-style: solid;
     border-color:#E5E7EB;
     border-width: 1px;
     height: 23px;
+    padding: 5px;
+    font-size: 1em;
+}
+
+input:focus {
+    border-color: #3d65d7;
+    box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.1);
+}
+
+input:invalid {
+    border-color: #b91c1c;
 }
