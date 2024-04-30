@@ -199,3 +199,7 @@ input:focus {
 input:invalid {
     border-color: #b91c1c;
 }
+
+input:placeholder-shown {
+    border-color: #E5E7EB;
+}
